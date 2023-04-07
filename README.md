@@ -44,17 +44,35 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 ## 4️⃣ Build and train the CNN model
 <img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="500" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="500" height="500">
 ## 5️⃣ Train the model using Intel OneAPI to get better results
-<p align="middle"><img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="500" height="200">
+<p align="middle"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="750" height="200">
+
 ## 6️⃣ Save the model
+       save the model to calculate the accuracy and loss
+       
+<hr/>
+
+# Accuracy and Loss      <img src="https://th.bing.com/th/id/OIG.4PTubkBU90hHgsA4BlQe?pid=ImgGn&w=1024&h=1024&rs=1" width="90" height="80">
+We did 50 epochs, to get a good accuracy from the model i.e. 98% for training accuracy and 96% for validation accuracy.
+<img src="https://user-images.githubusercontent.com/130077430/230531178-35afe049-d529-452f-94a0-fe6512aa0cc6.png" width="500" height="300"> <img src="https://user-images.githubusercontent.com/130077430/230531281-573d1dbb-5200-4e09-aac4-697109e3b3ab.png" width="499" height="300">
 
 <hr/>
-# Accuracy and      <img src="https://th.bing.com/th/id/OIG.HdoCgHK.J5OZSZ1c673l?pcl=1b1a19&pid=ImgGn" width="90" height="80">
+
+# Output <img src="https://th.bing.com/th/id/OIG.uCp3lLQ3.jFj88J365vQ?pcl=1b1a19&pid=ImgGn" width="90" height="80">
+## Eyes opened
+<p align="middle"><img src="https://im5.ezgif.com/tmp/ezgif-5-0db6ef984a.gif" width="250" height="250">
+
+## Eyes closed
+<p align="middle"><img src="https://im5.ezgif.com/tmp/ezgif-5-87b8c6b336.gif" width="250" height="250">
+
+<hr/>
+
 # What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
-![image](https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png)
+<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="200" height="100"> <img src="https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png" width="800" height="100">
 
 <hr/>
 
-# One More Thing 
+# One more thing <img src="https://th.bing.com/th/id/R.fa5e67376018e06bd8ffb06b3129a717?rik=7G91umXpvhJBjg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f10%2fapple-emblem.jpg&ehk=oZn9asOkaHE7jnq1KK2bsdCC3PpQvx52gN9eXh7e294%3d&risl=&pid=ImgRaw&r=0" width="90" height="80">
+<p align="middle"><img src="https://th.bing.com/th/id/R.cfabfe3a83a918b326ede9efb1d7ee8b?rik=sxInqysclnUS1A&riu=http%3a%2f%2fmedia.idownloadblog.com%2fwp-content%2fuploads%2f2015%2f08%2fSteve-Jobs-One-More-Thing.jpg&ehk=VbXo3DNGszgubtTtwYXhvwQyxwDKVJ%2bW7%2b0%2bproDQ%2fM%3d&risl=&pid=ImgRaw&r=0" width="800" height="300">
 
 
 <hr/>
