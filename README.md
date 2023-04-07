@@ -27,6 +27,7 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 <hr/>
 
 # How I built it <img src="https://th.bing.com/th/id/R.02832177b40b49d50674126476f980c3?rik=aXibwvpQe645bg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjcx%2f6rb%2fjcx6rbngi.png&ehk=xllVkMLnEE%2fEXx%2fnWbpceiVVfvTNGJmODcZ9fEBJVGA%3d&risl=&pid=ImgRaw&r=0" width="120" height="100"> 
+[(Back to top)](#Inspiration)
 ## 1️⃣ Pre-install all the required libraries
        1) OpenCV
        2) Keras
