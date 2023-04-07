@@ -14,11 +14,11 @@ Research shows that driver fatigue may be a contributory factor in up to 20% of 
 
 # Introduction <img src="https://user-images.githubusercontent.com/72274851/152814876-73362bcc-bde6-411f-ba80-235e911f276f.gif" width="90" height="90">
 
-[(Back to top)](#Inspiration)
-
 The drowsiness detection system monitors the driver's condition and issues an alert if it detects signs of drowsiness using CNN - Python, OpenCV.
 
 This system aims to reduce the number of accidents on the road by detecting the driver's drowsiness and warning them using an alarm⏰. 
+
+[(Back to top)](#Introduction)
 
 <hr/>
 
@@ -51,7 +51,8 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 
 ## 6️⃣ Save the model
        save the model to calculate the accuracy and loss
-       
+[(Back to top)](#How-I-built-it)
+    
 <hr/>
 
 # Accuracy and Loss      <img src="https://user-images.githubusercontent.com/130077430/230577475-9af43d03-1a50-41c2-99b2-e1a28b69c84e.png" width="90" height="80">
