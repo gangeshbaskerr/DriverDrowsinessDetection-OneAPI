@@ -3,7 +3,7 @@
 
 <hr/>
 
-# Inspiration  <img src="https://th.bing.com/th/id/OIG.PL7RSlzoTi.CnLeqGWPF?pcl=1b1a19&pid=ImgGn" width="90" height="80"> 
+# Inspiration  <img src="https://user-images.githubusercontent.com/130077430/230579469-c1263cef-784e-4845-93fb-2f73544e49e1.png" width="90" height="80"> 
 Accidents caused due to driver drowsiness are a major public health and safety issue, affecting millions of people every year. According to the National Safety Council, driving while drowsy is similar to driving while intoxicated, as it impairs drivers attention, reaction time, and decision making, leading to fatal or serious crashes. Several factors can increase the risk of drowsy driving, such as lack of sleep, sleep disorders, shift work, medications, and alcohol.
 
 Research shows that driver fatigue may be a contributory factor in up to 20% of road accidents, and up to one quarter of fatal and serious accidents. An estimated 1,550 deaths, 71,000 injuries, and $12.5 billion in monetary losses are due to drowsy drivers in a year.
@@ -51,14 +51,14 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
        
 <hr/>
 
-# Accuracy and Loss      <img src="https://th.bing.com/th/id/OIG.4PTubkBU90hHgsA4BlQe?pid=ImgGn&w=1024&h=1024&rs=1" width="90" height="80">
+# Accuracy and Loss      <img src="https://user-images.githubusercontent.com/130077430/230577475-9af43d03-1a50-41c2-99b2-e1a28b69c84e.png" width="90" height="80">
 We did 50 epochs, to get a good accuracy from the model i.e. 98% for training accuracy and 96% for validation accuracy.
 <img src="https://user-images.githubusercontent.com/130077430/230531178-35afe049-d529-452f-94a0-fe6512aa0cc6.png" width="500" height="300"> <img src="https://user-images.githubusercontent.com/130077430/230531281-573d1dbb-5200-4e09-aac4-697109e3b3ab.png" width="499" height="300">
 
 <hr/>
 
-# Output <img src="https://th.bing.com/th/id/OIG.uCp3lLQ3.jFj88J365vQ?pcl=1b1a19&pid=ImgGn" width="90" height="80">
-## Eyes opened
+# Output <img src="https://cdn4.iconfinder.com/data/icons/business-startup-36/64/552-512.png" width="90" height="80">
+## Eyes opened 👀
 <p align="middle"><img src="https://im5.ezgif.com/tmp/ezgif-5-0db6ef984a.gif" width="250" height="250">
 
 ## Eyes closed
@@ -66,12 +66,36 @@ We did 50 epochs, to get a good accuracy from the model i.e. 98% for training ac
 
 <hr/>
 
-# What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
+# What I learned <img src="https://user-images.githubusercontent.com/130077430/230583675-33ad7480-857b-451f-a64b-3c45f21d390a.png" width="90" height="80">
 <img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="200" height="100"> <img src="https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png" width="800" height="100">
+1) **Building a CNN model using Intel oneDNN :**
+    oneAPI is an open-source software toolkit developed by Intel that simplifies the development of high-performance, heterogeneous applications. It allows       developers to write code that can run efficiently on a variety of architectures, including CPUs, GPUs, and FPGAs. oneDNN (Deep Neural Network) is a part     of oneAPI and is an optimized library for deep learning. It provides highly optimized building blocks for neural network models that run efficiently on a     variety of hardware platforms. 
+
+2) **Machine Learning :**
+    _How to use machine learning for identifiying the facial features from a drivers face to detect drowsiness_
+
+3) **Convolutional Neural Network(CNN) :**
+    _How to build, train and fine-tune convolutional neural networks for image and video classification._
+
+4) **Preprocessinig the datasets :**
+    _How to preprocess the data dowloaded from kaggle so that the machine learning could happen in a much better and efficient way._
+
+5) **Different aspects of drowsiness during driving  :**
+    _I have studied the different causes and reasons for drowsiness to occur and how to resolve it_
+    
+6) **Facial regions and drowsiness:**
+    _I have studied how the facial landmarks are identified using an ocular feature called eye aspect ratio and face landmarks.Eye regions are detected           and extracted as regions of interest using a facial cue detector and The eye aspect ratio values are then calculated, analyzed and saved for each image._
+    
+7) **Team work :**
+    _Collaborating and communicating effectively in a team to deliver a project._
+
+8) **Understanding the need for a drowsiness detection system in vehicles**
+
+_These are just a few examples of the knowledge and skills that i likely gained while building this project. Overall, building a drowsiness detection model  is a challenging and rewarding experience that requires a combination of technical expertise and knowledge on facial cue detection._
 
 <hr/>
 
-# One more thing <img src="https://th.bing.com/th/id/R.fa5e67376018e06bd8ffb06b3129a717?rik=7G91umXpvhJBjg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f10%2fapple-emblem.jpg&ehk=oZn9asOkaHE7jnq1KK2bsdCC3PpQvx52gN9eXh7e294%3d&risl=&pid=ImgRaw&r=0" width="90" height="80">
+# One more thing <img src="[https://th.bing.com/th/id/R.fa5e67376018e06bd8ffb06b3129a717?rik=7G91umXpvhJBjg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f10%2fapple-emblem.jpg&ehk=oZn9asOkaHE7jnq1KK2bsdCC3PpQvx52gN9eXh7e294%3d&risl=&pid=ImgRaw&r=0](https://th.bing.com/th/id/R.6e4f5b96860ac0b0bbf8c5d1fa797e72?rik=6yyy9Ks%2fSTroxA&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f508847_white-apple-logo-png.png&ehk=xy%2fkVeadWfnEbIZ7VsGL2gmE0HPGAFbAmuLZlXkvVF0%3d&risl=&pid=ImgRaw&r=0)" width="90" height="80">
 <p align="middle"><img src="https://th.bing.com/th/id/R.cfabfe3a83a918b326ede9efb1d7ee8b?rik=sxInqysclnUS1A&riu=http%3a%2f%2fmedia.idownloadblog.com%2fwp-content%2fuploads%2f2015%2f08%2fSteve-Jobs-One-More-Thing.jpg&ehk=VbXo3DNGszgubtTtwYXhvwQyxwDKVJ%2bW7%2b0%2bproDQ%2fM%3d&risl=&pid=ImgRaw&r=0" width="800" height="300">
 
 
