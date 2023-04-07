@@ -8,7 +8,7 @@ Accidents caused due to driver drowsiness are a major public health and safety i
 
 Research shows that driver fatigue may be a contributory factor in up to 20% of road accidents, and up to one quarter of fatal and serious accidents. An estimated 1,550 deaths, 71,000 injuries, and $12.5 billion in monetary losses are due to drowsy drivers in a year.
 
-<img src="https://th.bing.com/th/id/OIG.WEOyPEzD_hHNRREU0GVd?pcl=1b1a19&pid=ImgGn" width="330" height="280"> <img src="https://cdn.thezebra.com/zfront/media/production/images/Have_you_ever_fallen_asleep__or__nodded_off__.width-1140.png" width="335" height="280"> <img src="https://im2.ezgif.com/tmp/ezgif-2-9b43bd27d4.gif" width="335" height="280">
+<img src="https://th.bing.com/th/id/OIG.WEOyPEzD_hHNRREU0GVd?pcl=1b1a19&pid=ImgGn" width="330" height="280"> <img src="https://cdn.thezebra.com/zfront/media/production/images/Have_you_ever_fallen_asleep__or__nodded_off__.width-1140.png" width="335" height="280"> <img src="https://user-images.githubusercontent.com/130077430/230591069-d29be60a-dd0c-42a9-a83b-92df7d7b03ba.gif" width="335" height="280">
 
 <hr/>
 
@@ -20,11 +20,11 @@ This system aims to reduce the number of accidents on the road by detecting the 
 
 <hr/>
 
-# What It Does ![image](https://user-images.githubusercontent.com/72274851/218503394-b52dfcc9-0620-4f44-94f5-46a09a5cc970.png)
+# What It Does <img src="https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/119-512.png" width="90" height="80"> 
 Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can detect features from the face of the drivers and alert them if they ever fall asleep while driving. The system detects the eyes and prompts if it is closed or open. If the eyes are closed for 10 seconds, it will play the alarm to get the driver's attention to stop because the system has detected drowsiness. We have built a model of CNN network trained on a dataset using OneAPI that can detect closed and open eyes. Then OpenCV is used to get the live feed from the camera and run every frame through the CNN model to process it and classify whether it is opened or closed eyes.
 <hr/>
 
-# How I built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
+# How I built it <img src="https://th.bing.com/th/id/R.02832177b40b49d50674126476f980c3?rik=aXibwvpQe645bg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjcx%2f6rb%2fjcx6rbngi.png&ehk=xllVkMLnEE%2fEXx%2fnWbpceiVVfvTNGJmODcZ9fEBJVGA%3d&risl=&pid=ImgRaw&r=0" width="120" height="100"> 
 ## 1️⃣ Pre-install all the required libraries
        1) OpenCV
        2) Keras
@@ -59,10 +59,10 @@ We did 50 epochs, to get a good accuracy from the model i.e. 98% for training ac
 
 # Output <img src="https://cdn4.iconfinder.com/data/icons/business-startup-36/64/552-512.png" width="90" height="80">
 ## Eyes opened 👀
-<p align="middle"><img src="https://im5.ezgif.com/tmp/ezgif-5-0db6ef984a.gif" width="250" height="250">
+<p align="middle"><img src="https://user-images.githubusercontent.com/130077430/230589722-bd38ad94-85a8-4ad6-9bad-675286b2d67b.gif" width="250" height="250">
 
 ## Eyes closed
-<p align="middle"><img src="https://im5.ezgif.com/tmp/ezgif-5-87b8c6b336.gif" width="250" height="250">
+<p align="middle"><img src="https://user-images.githubusercontent.com/130077430/230590473-ac7a6d4b-ed9e-4440-9a98-f65cb506482a.gif" width="250" height="250">
 
 <hr/>
 
@@ -95,7 +95,7 @@ _These are just a few examples of the knowledge and skills that i likely gained 
 
 <hr/>
 
-# One more thing <img src="[https://th.bing.com/th/id/R.fa5e67376018e06bd8ffb06b3129a717?rik=7G91umXpvhJBjg&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2016%2f10%2fapple-emblem.jpg&ehk=oZn9asOkaHE7jnq1KK2bsdCC3PpQvx52gN9eXh7e294%3d&risl=&pid=ImgRaw&r=0](https://th.bing.com/th/id/R.6e4f5b96860ac0b0bbf8c5d1fa797e72?rik=6yyy9Ks%2fSTroxA&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f508847_white-apple-logo-png.png&ehk=xy%2fkVeadWfnEbIZ7VsGL2gmE0HPGAFbAmuLZlXkvVF0%3d&risl=&pid=ImgRaw&r=0)" width="90" height="80">
+# One more thing <img src="https://cdn.freebiesupply.com/logos/large/2x/apple1-logo-png-transparent.png" width="60" height="60">
 <p align="middle"><img src="https://th.bing.com/th/id/R.cfabfe3a83a918b326ede9efb1d7ee8b?rik=sxInqysclnUS1A&riu=http%3a%2f%2fmedia.idownloadblog.com%2fwp-content%2fuploads%2f2015%2f08%2fSteve-Jobs-One-More-Thing.jpg&ehk=VbXo3DNGszgubtTtwYXhvwQyxwDKVJ%2bW7%2b0%2bproDQ%2fM%3d&risl=&pid=ImgRaw&r=0" width="800" height="300">
 
 
