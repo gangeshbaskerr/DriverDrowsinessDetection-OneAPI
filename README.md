@@ -72,7 +72,7 @@ We did 50 epochs, to get a good accuracy from the model i.e. 98% for training ac
     oneAPI is an open-source software toolkit developed by Intel that simplifies the development of high-performance, heterogeneous applications. It allows       developers to write code that can run efficiently on a variety of architectures, including CPUs, GPUs, and FPGAs. oneDNN (Deep Neural Network) is a part     of oneAPI and is an optimized library for deep learning. It provides highly optimized building blocks for neural network models that run efficiently on a     variety of hardware platforms. 
 
 2) **Machine Learning :**
-    _How to use machine learning for identifiying the facial features from a drivers face to detect drowsiness_
+    _How to use machine learning for identifiying the facial features from a drivers face to detect drowsiness._
 
 3) **Convolutional Neural Network(CNN) :**
     _How to build, train and fine-tune convolutional neural networks for image and video classification._
@@ -81,7 +81,7 @@ We did 50 epochs, to get a good accuracy from the model i.e. 98% for training ac
     _How to preprocess the data dowloaded from kaggle so that the machine learning could happen in a much better and efficient way._
 
 5) **Different aspects of drowsiness during driving  :**
-    _I have studied the different causes and reasons for drowsiness to occur and how to resolve it_
+    _I have studied the different causes and reasons for drowsiness to occur and how to resolve it._
     
 6) **Facial regions and drowsiness:**
     _I have studied how the facial landmarks are identified using an ocular feature called eye aspect ratio and face landmarks.Eye regions are detected           and extracted as regions of interest using a facial cue detector and The eye aspect ratio values are then calculated, analyzed and saved for each image._
@@ -99,7 +99,7 @@ _These are just a few examples of the knowledge and skills that i likely gained 
 <p align="middle"><img src="https://th.bing.com/th/id/R.cfabfe3a83a918b326ede9efb1d7ee8b?rik=sxInqysclnUS1A&riu=http%3a%2f%2fmedia.idownloadblog.com%2fwp-content%2fuploads%2f2015%2f08%2fSteve-Jobs-One-More-Thing.jpg&ehk=VbXo3DNGszgubtTtwYXhvwQyxwDKVJ%2bW7%2b0%2bproDQ%2fM%3d&risl=&pid=ImgRaw&r=0" width="800" height="300">
 
 1) **Distraction detection :**
-    When no eyes is detected while face is detected, can be called distraction and that can also be added to this model. 
+    When no eyes is detected while face is detected, It can be called distraction and that can also be added to this model. 
 
 2) **Alcohol gas detection :**
     The MQ3 alcohol gas sensor is a module used for detecting alcohol, CH4, benzene, gasoline, hexane, CO, and LPG. It has a sensitive material namedSnO2 for     alcohol gas detection, This code can be easily pared with MQ3 sensor to extend its detection in drunken driving.
