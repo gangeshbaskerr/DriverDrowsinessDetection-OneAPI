@@ -18,8 +18,6 @@ The drowsiness detection system monitors the driver's condition and issues an al
 
 This system aims to reduce the number of accidents on the road by detecting the driver's drowsiness and warning them using an alarm⏰. 
 
-[(Back to top)](#Introduction)
-
 <hr/>
 
 # What It Does <img src="https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/119-512.png" width="90" height="80"> 
@@ -27,7 +25,7 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 <hr/>
 
 # How I built it <img src="https://th.bing.com/th/id/R.02832177b40b49d50674126476f980c3?rik=aXibwvpQe645bg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjcx%2f6rb%2fjcx6rbngi.png&ehk=xllVkMLnEE%2fEXx%2fnWbpceiVVfvTNGJmODcZ9fEBJVGA%3d&risl=&pid=ImgRaw&r=0" width="120" height="100"> 
-[(Back to top)](#Inspiration)
+
 ## 1️⃣ Pre-install all the required libraries
        1) OpenCV
        2) Keras
@@ -51,7 +49,6 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 
 ## 6️⃣ Save the model
        save the model to calculate the accuracy and loss
-[(Back to top)](#How-I-built-it)
     
 <hr/>
 
