@@ -75,7 +75,7 @@ Having multiple types of compute architectures leads to different programming an
 To migrate your project to OneAPI : 
 [click here!](https://devcloud.intel.com/oneapi/get_started/) to get started
 
-for reference : [click here!](https://www.youtube.com/watch?v=NkJXCalgmeU)
+For reference : [click here!](https://www.youtube.com/watch?v=NkJXCalgmeU)
     
     
 ## 6️⃣ Save the model
