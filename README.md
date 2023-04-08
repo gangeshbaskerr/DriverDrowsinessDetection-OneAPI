@@ -12,6 +12,11 @@ Research shows that driver fatigue may be a contributory factor in up to 20% of 
 
 <hr/>
 
+# Problem Statement <img src="https://e7.pngegg.com/pngimages/418/122/png-clipart-question-mark-illustration-computer-icons-problem-statement-definition-problem-miscellaneous-blue.png" width="50" height="50">
+
+The number of accidents occuring has been increased a lot due to the cultural and 
+<hr/>
+
 # Introduction <img src="https://user-images.githubusercontent.com/72274851/152814876-73362bcc-bde6-411f-ba80-235e911f276f.gif" width="90" height="90">
 
 The drowsiness detection system monitors the driver's condition and issues an alert if it detects signs of drowsiness using CNN - Python, OpenCV.
@@ -63,8 +68,11 @@ Having multiple types of compute architectures leads to different programming an
 3) To process files faster ie. it takes less time to run the epochs
 4) OneAPI allows users to transcend Hardware restrictions and provide better performance for low powered computers
 
+<p align="middle"><img src="https://user-images.githubusercontent.com/130077430/230729456-66b11f5a-0c83-4f3e-a99c-5d2320ace3be.jpg" width="400" height="400">
+
 To migrate your project to OneAPI : 
 [click here!](https://devcloud.intel.com/oneapi/get_started/) to get started
+
 [click here!](https://www.youtube.com/watch?v=NkJXCalgmeU) for reference
     
     
@@ -124,7 +132,7 @@ We have built an app using Flutter. Flutter helps Build, test, and deploy beauti
 As soon as the model detects drowsiness, the model will send an API request call to the client app, which notifies the user to take some rest and shows the navigation option to the nearest resting places. If the user isn't drowsy, the app will give 10 seconds buffer time within which the user can confirm that he isn't sleepy by pressing the prompt on the screen. If the user is drowsy he will get a option for getting driving assistance from the nearby driving service providers. If the user has been detected drowsy more than three times within 10 minutes, a notification is sent to the highway patrol and the nearby drivers as a concern for the safety of other drivers and the drowsy driver.
 
 
-<img src="https://user-images.githubusercontent.com/130077430/230727293-bd42e1a8-29cb-4114-841c-64578c4bd0ca.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/130077430/230727293-bd42e1a8-29cb-4114-841c-64578c4bd0ca.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230728575-cede9c5d-4b49-46e5-ad93-4db6e5b14380.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230729076-ba0baa57-7d02-4a19-af50-71eb7fb6162d.png" width="250" height="500">
 
 <hr/>
 
