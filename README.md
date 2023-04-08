@@ -68,6 +68,7 @@ Having multiple types of compute architectures leads to different programming an
 2) To implement machine learning based IoT projects easily with less hardwares as the machine learning part happens in cloud
 3) To process files faster ie. it takes less time to run the epochs
 4) OneAPI allows users to transcend Hardware restrictions and provide better performance for low powered computers
+5) Accuracy will improve while using OneAPI
 
 <p align="middle"><img src="https://user-images.githubusercontent.com/130077430/230729456-66b11f5a-0c83-4f3e-a99c-5d2320ace3be.jpg" width="400" height="400">
 
