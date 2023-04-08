@@ -153,3 +153,5 @@ As soon as the model detects drowsiness, the model will send an API request call
 
 # Conclusion <img src="https://user-images.githubusercontent.com/130077430/230730394-3dfbc977-435b-4a6f-bfa3-fc193606f0e0.png" width="90" height="80">
 Through this project there will be 20-30% decrease in number of accidents occuring. If this project is used efficiently it may also lead to huge decrease in percentage of accidents .
+
+<hr/>
