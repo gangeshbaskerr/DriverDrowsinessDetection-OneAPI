@@ -20,7 +20,7 @@ This system aims to reduce the number of accidents on the road by detecting the 
 
 <hr/>
 
-# Overview <img src="https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/119-512.png" width="90" height="80"> 
+# Approach <img src="https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/119-512.png" width="90" height="80"> 
 Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can detect features from the face of the drivers and alert them if they ever fall asleep while driving. The system detects the eyes and prompts if it is closed or open. If the eyes are closed for 10 seconds, it will play the alarm to get the driver's attention to stop because the system has detected drowsiness. We have built a model of CNN network trained on a dataset using OneAPI that can detect closed and open eyes. Then OpenCV is used to get the live feed from the camera and run every frame through the CNN model to process it and classify whether it is opened or closed eyes.
 <hr/>
 
@@ -39,14 +39,31 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
        2) Open_eyes - having 726 pictures
        3) Yawn - having 725 pictures
        4) no_yawn - having 723 pictures
-       out of which only 2 folders(Closed_eyes & Open_eyes) are used.
+
+ <img src="https://user-images.githubusercontent.com/130077430/230722949-fa0ece8c-9d0c-45bd-b77f-863e299dd134.jpg" width="249" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722952-9b7076a0-bb3e-4be3-b102-e907fc02d030.jpg" width="249" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722954-862bbeea-9489-4b5e-8ff0-780635bd337f.jpg" width="249" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722955-f751a799-5d50-4272-bf0c-0d564a9a157e.jpg" width="249" height="250">
+ 
 ## 3️⃣ Data preprocessing
-      preprocess the images from the closed_eye, open_eye, yawn and no_yawn folder to train build and train the model in the next step
+      preprocess the images from the closed_eye, open_eye, yawn and no_yawn folder and apply pre-processing techniques such as 
+      normalization, resizing, and augmentation to improve the performance of the learning model.
 ## 4️⃣ Build and train the CNN model
 <img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="500" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="500" height="500">
 ## 5️⃣ Train the model using Intel OneAPI to get better results
-<p align="middle"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="750" height="200">
-### The performance boost that i got by using Intel OneAPI
+<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="200" height="100"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="800" height="100">
+
+**How does OneApi provide better performance :**
+    
+Today’s compute systems are heterogeneous and include CPUs, GPUs, FPGAs, and other accelerators. The different architectures exhibit varied                   characteristics that can be matched to specific workloads for the best performance.
+
+Having multiple types of compute architectures leads to different programming and optimization needs. oneAPI and SYCL provide a programming model, whether through direct programming or libraries, that can be utilized to develop software tailored to each of the architectures.
+    
+**Advantages of using OneAPi :**
+
+1) We can use Single code for both cpu and GPU (heterogeneous computing)
+2) To implement machine learning based IoT projects easily with less hardwares as the machine learning part happens in cloud
+3) To process files faster epochs time is less
+4) OneAPI allows users to transcend Hardware restrictions and provide better performance for low powered computers
+
+    
     
 ## 6️⃣ Save the model
        save the model to calculate the accuracy and loss
@@ -54,7 +71,7 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 <hr/>
 
 # Accuracy and Loss      <img src="https://user-images.githubusercontent.com/130077430/230577475-9af43d03-1a50-41c2-99b2-e1a28b69c84e.png" width="90" height="80">
-We did 50 epochs, to get a good accuracy from the model i.e. 98% for training accuracy and 96% for validation accuracy.
+We did 80 epochs, to get a good accuracy from the model i.e. 98% for training accuracy and 97% for validation accuracy.
 <img src="https://user-images.githubusercontent.com/130077430/230531178-35afe049-d529-452f-94a0-fe6512aa0cc6.png" width="500" height="300"> <img src="https://user-images.githubusercontent.com/130077430/230531281-573d1dbb-5200-4e09-aac4-697109e3b3ab.png" width="499" height="300">
 
 <hr/>
