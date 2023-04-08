@@ -70,7 +70,8 @@ Having multiple types of compute architectures leads to different programming an
 4) OneAPI allows users to transcend Hardware restrictions and provide better performance for low powered computers
 5) Accuracy will improve while using OneAPI
 
-<p align="middle"><img src="https://user-images.githubusercontent.com/130077430/230729456-66b11f5a-0c83-4f3e-a99c-5d2320ace3be.jpg" width="400" height="400">
+
+<img src="https://user-images.githubusercontent.com/130077430/230729456-66b11f5a-0c83-4f3e-a99c-5d2320ace3be.jpg" width="499" height="400"> <img src="https://user-images.githubusercontent.com/130077430/230732076-45bd3ab1-bae7-4157-8f76-498c08479890.jpg" width="499" height="400">
 
 To migrate your project to OneAPI : 
 [click here!](https://devcloud.intel.com/oneapi/get_started/) to get started
