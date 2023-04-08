@@ -20,11 +20,11 @@ This system aims to reduce the number of accidents on the road by detecting the 
 
 <hr/>
 
-# What It Does <img src="https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/119-512.png" width="90" height="80"> 
+# Overview <img src="https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/119-512.png" width="90" height="80"> 
 Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can detect features from the face of the drivers and alert them if they ever fall asleep while driving. The system detects the eyes and prompts if it is closed or open. If the eyes are closed for 10 seconds, it will play the alarm to get the driver's attention to stop because the system has detected drowsiness. We have built a model of CNN network trained on a dataset using OneAPI that can detect closed and open eyes. Then OpenCV is used to get the live feed from the camera and run every frame through the CNN model to process it and classify whether it is opened or closed eyes.
 <hr/>
 
-# How I built it <img src="https://th.bing.com/th/id/R.02832177b40b49d50674126476f980c3?rik=aXibwvpQe645bg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjcx%2f6rb%2fjcx6rbngi.png&ehk=xllVkMLnEE%2fEXx%2fnWbpceiVVfvTNGJmODcZ9fEBJVGA%3d&risl=&pid=ImgRaw&r=0" width="120" height="100"> 
+# Procedure <img src="https://th.bing.com/th/id/R.02832177b40b49d50674126476f980c3?rik=aXibwvpQe645bg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjcx%2f6rb%2fjcx6rbngi.png&ehk=xllVkMLnEE%2fEXx%2fnWbpceiVVfvTNGJmODcZ9fEBJVGA%3d&risl=&pid=ImgRaw&r=0" width="120" height="100"> 
 
 ## 1️⃣ Pre-install all the required libraries
        1) OpenCV
@@ -46,7 +46,8 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 <img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="500" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="500" height="500">
 ## 5️⃣ Train the model using Intel OneAPI to get better results
 <p align="middle"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="750" height="200">
-
+### The performance boost that i got by using Intel OneAPI
+    
 ## 6️⃣ Save the model
        save the model to calculate the accuracy and loss
     
@@ -67,7 +68,7 @@ We did 50 epochs, to get a good accuracy from the model i.e. 98% for training ac
 
 <hr/>
 
-# What I learned <img src="https://user-images.githubusercontent.com/130077430/230583675-33ad7480-857b-451f-a64b-3c45f21d390a.png" width="90" height="80">
+# Learnings <img src="https://user-images.githubusercontent.com/130077430/230583675-33ad7480-857b-451f-a64b-3c45f21d390a.png" width="90" height="80">
 <img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="200" height="100"> <img src="https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png" width="800" height="100">
 1) **Building a CNN model using Intel oneDNN :**
     oneAPI is an open-source software toolkit developed by Intel that simplifies the development of high-performance, heterogeneous applications. It allows       developers to write code that can run efficiently on a variety of architectures, including CPUs, GPUs, and FPGAs. oneDNN (Deep Neural Network) is a part     of oneAPI and is an optimized library for deep learning. It provides highly optimized building blocks for neural network models that run efficiently on a     variety of hardware platforms. 
