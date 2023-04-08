@@ -12,9 +12,9 @@ Research shows that driver fatigue may be a contributory factor in up to 20% of 
 
 <hr/>
 
-# Problem Statement <img src="https://e7.pngegg.com/pngimages/418/122/png-clipart-question-mark-illustration-computer-icons-problem-statement-definition-problem-miscellaneous-blue.png" width="50" height="50">
+# Problem Statement <img src="https://user-images.githubusercontent.com/130077430/230730194-a7389fed-f5fd-48d3-856a-0212057f2500.png" width="90" height="80">
 
-The number of accidents occuring has been increased a lot recently and one of the major reasons for it is drowsiness and it can be reduced by building a model that can detect drowsiness and alert the driver.
+The number of accidents occuring has been increased a lot recently and one of the major reasons for it is drowsiness Therefore, there is a need for a better solution that can detect driver drowsiness accurately and unobtrusively, and provide timely feedback or intervention to prevent accidents
 
 <hr/>
 
@@ -62,9 +62,9 @@ Today’s compute systems are heterogeneous and include CPUs, GPUs, FPGAs, and o
 
 Having multiple types of compute architectures leads to different programming and optimization needs. oneAPI and SYCL provide a programming model, whether through direct programming or libraries, that can be utilized to develop software tailored to each of the architectures.
     
-**Advantages of using OneAPi :**
+**Advantages of using OneAPI :**
 
-1) We can use Single code for both cpu and GPU (heterogeneous computing)
+1) We can use Single code for both CPU and GPU (heterogeneous computing)
 2) To implement machine learning based IoT projects easily with less hardwares as the machine learning part happens in cloud
 3) To process files faster ie. it takes less time to run the epochs
 4) OneAPI allows users to transcend Hardware restrictions and provide better performance for low powered computers
@@ -74,7 +74,7 @@ Having multiple types of compute architectures leads to different programming an
 To migrate your project to OneAPI : 
 [click here!](https://devcloud.intel.com/oneapi/get_started/) to get started
 
-[click here!](https://www.youtube.com/watch?v=NkJXCalgmeU) for reference
+for reference : [click here!](https://www.youtube.com/watch?v=NkJXCalgmeU)
     
     
 ## 6️⃣ Save the model
@@ -151,5 +151,5 @@ As soon as the model detects drowsiness, the model will send an API request call
 
 <hr/>
 
-# Conclusion 
-Through this project there will be 20-30% decrease in number of accidents occuring. If this project is used efficiently it may also lead to huge decrease in percentge of accidents .
+# Conclusion <img src="https://user-images.githubusercontent.com/130077430/230730394-3dfbc977-435b-4a6f-bfa3-fc193606f0e0.png" width="90" height="80">
+Through this project there will be 20-30% decrease in number of accidents occuring. If this project is used efficiently it may also lead to huge decrease in percentage of accidents .
