@@ -60,9 +60,12 @@ Having multiple types of compute architectures leads to different programming an
 
 1) We can use Single code for both cpu and GPU (heterogeneous computing)
 2) To implement machine learning based IoT projects easily with less hardwares as the machine learning part happens in cloud
-3) To process files faster epochs time is less
+3) To process files faster ie. it takes less time to run the epochs
 4) OneAPI allows users to transcend Hardware restrictions and provide better performance for low powered computers
 
+To migrate your project to OneAPI : 
+[click here!](https://devcloud.intel.com/oneapi/get_started/) to get started
+[click here!](https://www.youtube.com/watch?v=NkJXCalgmeU) for reference
     
     
 ## 6️⃣ Save the model
@@ -111,6 +114,17 @@ We did 80 epochs, to get a good accuracy from the model i.e. 98% for training ac
 8) **Understanding the need for a drowsiness detection system in vehicles**
 
 _These are just a few examples of the knowledge and skills that i likely gained while building this project. Overall, building a drowsiness detection model  is a challenging and rewarding experience that requires a combination of technical expertise and knowledge on facial cue detection._
+
+<hr/>
+
+# Project Deployment <img src="https://user-images.githubusercontent.com/130077430/230725195-2f024fca-9cae-4e91-85dc-4c12e0e1fcb0.png" width="90" height="80">
+
+We have built an app using Flutter. Flutter helps Build, test, and deploy beautiful mobile, web, desktop, and embedded apps from a single codebase. It is a cross-platform app development framework by Google which goes hand in hand with the model to help ensure the safety of the user and other commuters. 
+
+As soon as the model detects drowsiness, the model will send an API request call to the client app, which notifies the user to take some rest and shows the navigation option to the nearest resting places. If the user isn't drowsy, the app will give 10 seconds buffer time within which the user can confirm that he isn't sleepy by pressing the prompt on the screen. If the user is drowsy he will get a option for getting driving assistance from the nearby driving service providers. If the user has been detected drowsy more than three times within 10 minutes, a notification is sent to the highway patrol and the nearby drivers as a concern for the safety of other drivers and the drowsy driver.
+
+
+<img src="https://user-images.githubusercontent.com/130077430/230727293-bd42e1a8-29cb-4114-841c-64578c4bd0ca.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500">
 
 <hr/>
 
