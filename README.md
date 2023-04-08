@@ -14,7 +14,8 @@ Research shows that driver fatigue may be a contributory factor in up to 20% of 
 
 # Problem Statement <img src="https://e7.pngegg.com/pngimages/418/122/png-clipart-question-mark-illustration-computer-icons-problem-statement-definition-problem-miscellaneous-blue.png" width="50" height="50">
 
-The number of accidents occuring has been increased a lot due to the cultural and 
+The number of accidents occuring has been increased a lot recently and one of the major reasons for it is drowsiness and it can be reduced by building a model that can detect drowsiness and alert the driver.
+
 <hr/>
 
 # Introduction <img src="https://user-images.githubusercontent.com/72274851/152814876-73362bcc-bde6-411f-ba80-235e911f276f.gif" width="90" height="90">
@@ -136,6 +137,7 @@ As soon as the model detects drowsiness, the model will send an API request call
 
 <hr/>
 
+
 # One more thing <img src="https://cdn.freebiesupply.com/logos/large/2x/apple1-logo-png-transparent.png" width="60" height="60">
 <p align="middle"><img src="https://th.bing.com/th/id/R.cfabfe3a83a918b326ede9efb1d7ee8b?rik=sxInqysclnUS1A&riu=http%3a%2f%2fmedia.idownloadblog.com%2fwp-content%2fuploads%2f2015%2f08%2fSteve-Jobs-One-More-Thing.jpg&ehk=VbXo3DNGszgubtTtwYXhvwQyxwDKVJ%2bW7%2b0%2bproDQ%2fM%3d&risl=&pid=ImgRaw&r=0" width="800" height="300">
 
@@ -148,3 +150,6 @@ As soon as the model detects drowsiness, the model will send an API request call
 3) This module can be integrated with the driving system in cars to slow them down and bring them to stop when drowsiness is detected, its even better with      autonomous cars as they can take over the driver and park the car in a safe place and prompt the driver to rest for few hours and then continue their        journey.
 
 <hr/>
+
+# Conclusion 
+Through this project there will be 20-30% decrease in number of accidents occuring. If this project is used efficiently it may also lead to huge decrease in percentge of accidents .
