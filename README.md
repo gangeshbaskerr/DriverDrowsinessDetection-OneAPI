@@ -1,5 +1,5 @@
 ![DRIVER_DROWSINESS_DETECTION_(CNN)-OneAPI](https://user-images.githubusercontent.com/130077430/230480144-163d76a7-6e45-4c6e-8af1-a23f26b20df8.png)
-    ![made-with-jupyter-notebook](https://user-images.githubusercontent.com/130077430/230479936-93dbcbd0-275b-4af7-9231-cceeb91d8a84.svg)          ![migrated-to-oneapi](https://user-images.githubusercontent.com/130077430/230487901-cbcdf13f-1d36-477d-9a7c-1917fa579da9.svg)<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="35px"> ![built-by-team-geeks](https://user-images.githubusercontent.com/130077430/230486285-e9e8fdbc-4579-4d0e-a448-550b423199b2.svg) [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+    ![made-with-jupyter-notebook](https://user-images.githubusercontent.com/130077430/230479936-93dbcbd0-275b-4af7-9231-cceeb91d8a84.svg)          ![migrated-to-oneapi](https://user-images.githubusercontent.com/130077430/230487901-cbcdf13f-1d36-477d-9a7c-1917fa579da9.svg)![built-by-team-geeks](https://user-images.githubusercontent.com/130077430/230486285-e9e8fdbc-4579-4d0e-a448-550b423199b2.svg)[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gangeshbaskerr/DriverDrowsinessDetection-OneAPI"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/gangeshbaskerr/DriverDrowsinessDetection-OneAPI?style=social">
 <hr/>
 
@@ -8,7 +8,7 @@ Accidents caused due to driver drowsiness are a major public health and safety i
 
 Research shows that driver fatigue may be a contributory factor in up to 20% of road accidents, and up to one quarter of fatal and serious accidents. An estimated 1,550 deaths, 71,000 injuries, and $12.5 billion in monetary losses are due to drowsy drivers in a year.
 
-<img src="https://th.bing.com/th/id/OIG.WEOyPEzD_hHNRREU0GVd?pcl=1b1a19&pid=ImgGn" width="330" height="280"> <img src="https://cdn.thezebra.com/zfront/media/production/images/Have_you_ever_fallen_asleep__or__nodded_off__.width-1140.png" width="335" height="280"> <img src="https://user-images.githubusercontent.com/130077430/230591069-d29be60a-dd0c-42a9-a83b-92df7d7b03ba.gif" width="335" height="280">
+<img src="https://th.bing.com/th/id/OIG.WEOyPEzD_hHNRREU0GVd?pcl=1b1a19&pid=ImgGn" width="320" height="280"><img src="https://cdn.thezebra.com/zfront/media/production/images/Have_you_ever_fallen_asleep__or__nodded_off__.width-1140.png" width="300" height="280"><img src="https://user-images.githubusercontent.com/130077430/230591069-d29be60a-dd0c-42a9-a83b-92df7d7b03ba.gif" width="320" height="280">
 
 <hr/>
 
@@ -46,15 +46,15 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
        3) Yawn - having 725 pictures
        4) no_yawn - having 723 pictures
 
- <img src="https://user-images.githubusercontent.com/130077430/230722949-fa0ece8c-9d0c-45bd-b77f-863e299dd134.jpg" width="249" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722952-9b7076a0-bb3e-4be3-b102-e907fc02d030.jpg" width="249" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722954-862bbeea-9489-4b5e-8ff0-780635bd337f.jpg" width="249" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722955-f751a799-5d50-4272-bf0c-0d564a9a157e.jpg" width="249" height="250">
+ <img src="https://user-images.githubusercontent.com/130077430/230722949-fa0ece8c-9d0c-45bd-b77f-863e299dd134.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722952-9b7076a0-bb3e-4be3-b102-e907fc02d030.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722954-862bbeea-9489-4b5e-8ff0-780635bd337f.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722955-f751a799-5d50-4272-bf0c-0d564a9a157e.jpg" width="230" height="250">
  
 ## 3️⃣ Data preprocessing
       preprocess the images from the closed_eye, open_eye, yawn and no_yawn folder and apply pre-processing techniques such as 
       normalization, resizing, and augmentation to improve the performance of the learning model.
 ## 4️⃣ Build and train the CNN model
-<img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="500" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="500" height="500">
+<img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="470" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="470" height="500">
 ## 5️⃣ Train the model using Intel OneAPI to get better results
-<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="200" height="100"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="800" height="100">
+<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="180" height="100"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="740" height="100">
 
 **How does OneApi provide better performance :**
     
@@ -71,7 +71,7 @@ Having multiple types of compute architectures leads to different programming an
 5) Accuracy will improve while using OneAPI
 
 
-<img src="https://user-images.githubusercontent.com/130077430/230733185-94fbda70-6fe6-40af-985c-d7f8a74a3521.jpg" width="499" height="400"> <img src="https://user-images.githubusercontent.com/130077430/230733189-78e03097-7c88-4f42-9c0e-159e58aa7972.jpg" width="499" height="400">
+<img src="https://user-images.githubusercontent.com/130077430/230733185-94fbda70-6fe6-40af-985c-d7f8a74a3521.jpg" width="470" height="400"> <img src="https://user-images.githubusercontent.com/130077430/230733189-78e03097-7c88-4f42-9c0e-159e58aa7972.jpg" width="470" height="400">
 
 To migrate your project to OneAPI : 
 [click here!](https://devcloud.intel.com/oneapi/get_started/) to get started
@@ -86,7 +86,7 @@ For reference : [click here!](https://www.youtube.com/watch?v=NkJXCalgmeU)
 
 # Accuracy and Loss      <img src="https://user-images.githubusercontent.com/130077430/230577475-9af43d03-1a50-41c2-99b2-e1a28b69c84e.png" width="90" height="80">
 We did 80 epochs, to get a good accuracy from the model i.e. 98% for training accuracy and 97% for validation accuracy.
-<img src="https://user-images.githubusercontent.com/130077430/230531178-35afe049-d529-452f-94a0-fe6512aa0cc6.png" width="500" height="300"> <img src="https://user-images.githubusercontent.com/130077430/230531281-573d1dbb-5200-4e09-aac4-697109e3b3ab.png" width="499" height="300">
+<img src="https://user-images.githubusercontent.com/130077430/230531178-35afe049-d529-452f-94a0-fe6512aa0cc6.png" width="470" height="300"> <img src="https://user-images.githubusercontent.com/130077430/230531281-573d1dbb-5200-4e09-aac4-697109e3b3ab.png" width="470" height="300">
 
 <hr/>
 
@@ -100,7 +100,7 @@ We did 80 epochs, to get a good accuracy from the model i.e. 98% for training ac
 <hr/>
 
 # Learnings <img src="https://user-images.githubusercontent.com/130077430/230583675-33ad7480-857b-451f-a64b-3c45f21d390a.png" width="90" height="80">
-<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="200" height="100"> <img src="https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png" width="800" height="100">
+<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="180" height="100"><img src="https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png" width="760" height="100">
 1) **Building a CNN model using Intel oneDNN :**
     oneAPI is an open-source software toolkit developed by Intel that simplifies the development of high-performance, heterogeneous applications. It allows       developers to write code that can run efficiently on a variety of architectures, including CPUs, GPUs, and FPGAs. oneDNN (Deep Neural Network) is a part     of oneAPI and is an optimized library for deep learning. It provides highly optimized building blocks for neural network models that run efficiently on a     variety of hardware platforms. 
 
@@ -135,7 +135,7 @@ We have built an app using Flutter. Flutter helps Build, test, and deploy beauti
 As soon as the model detects drowsiness, the model will send an API request call to the client app, which notifies the user to take some rest and shows the navigation option to the nearest resting places. If the user isn't drowsy, the app will give 10 seconds buffer time within which the user can confirm that he isn't sleepy by pressing the prompt on the screen. If the user is drowsy he will get a option for getting driving assistance from the nearby driving service providers. If the user has been detected drowsy more than three times within 10 minutes, a notification is sent to the highway patrol and the nearby drivers as a concern for the safety of other drivers and the drowsy driver.
 
 
-<img src="https://user-images.githubusercontent.com/130077430/230727293-bd42e1a8-29cb-4114-841c-64578c4bd0ca.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230728575-cede9c5d-4b49-46e5-ad93-4db6e5b14380.png" width="250" height="500"><img src="https://user-images.githubusercontent.com/130077430/230729076-ba0baa57-7d02-4a19-af50-71eb7fb6162d.png" width="250" height="500">
+<img src="https://user-images.githubusercontent.com/130077430/230727293-bd42e1a8-29cb-4114-841c-64578c4bd0ca.png" width="230" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="230" height="500"><img src="https://user-images.githubusercontent.com/130077430/230728575-cede9c5d-4b49-46e5-ad93-4db6e5b14380.png" width="230" height="500"><img src="https://user-images.githubusercontent.com/130077430/230729076-ba0baa57-7d02-4a19-af50-71eb7fb6162d.png" width="230" height="500">
 
 <hr/>
 
