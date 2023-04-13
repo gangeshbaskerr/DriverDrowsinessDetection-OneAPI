@@ -51,7 +51,10 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
 ## 3️⃣ Data preprocessing
       preprocess the images from the closed_eye, open_eye, yawn and no_yawn folder.
       Resizing all the images to the same dimensions and converting the images into numpy arrays
+      The dataset will be split into training, validation, and testing sets.
 ## 4️⃣ Build and train the CNN model
+The CNN model is designed and trained to classify images as either the driver's eye is opened or closed.
+
 <img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="470" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="470" height="500">
 ## 5️⃣ Train the model using Intel OneAPI to get better results
 <img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="180" height="100"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="740" height="100">
