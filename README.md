@@ -49,8 +49,8 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
  <img src="https://user-images.githubusercontent.com/130077430/230722949-fa0ece8c-9d0c-45bd-b77f-863e299dd134.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722952-9b7076a0-bb3e-4be3-b102-e907fc02d030.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722954-862bbeea-9489-4b5e-8ff0-780635bd337f.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722955-f751a799-5d50-4272-bf0c-0d564a9a157e.jpg" width="230" height="250">
  
 ## 3️⃣ Data preprocessing
-      preprocess the images from the closed_eye, open_eye, yawn and no_yawn folder and apply pre-processing techniques such as 
-      normalization, resizing, and augmentation to improve the performance of the learning model.
+      preprocess the images from the closed_eye, open_eye, yawn and no_yawn folder.
+      Resizing all the images to the same dimensions and converting the images into numpy arrays
 ## 4️⃣ Build and train the CNN model
 <img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="470" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="470" height="500">
 ## 5️⃣ Train the model using Intel OneAPI to get better results
