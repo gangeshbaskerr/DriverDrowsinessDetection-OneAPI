@@ -1,33 +1,51 @@
-![DRIVER_DROWSINESS_DETECTION_(CNN)-OneAPI](https://user-images.githubusercontent.com/130077430/230480144-163d76a7-6e45-4c6e-8af1-a23f26b20df8.png)
-    ![made-with-jupyter-notebook](https://user-images.githubusercontent.com/130077430/230479936-93dbcbd0-275b-4af7-9231-cceeb91d8a84.svg)          ![migrated-to-oneapi](https://user-images.githubusercontent.com/130077430/230487901-cbcdf13f-1d36-477d-9a7c-1917fa579da9.svg)![built-by-team-geeks](https://user-images.githubusercontent.com/130077430/230486285-e9e8fdbc-4579-4d0e-a448-550b423199b2.svg)[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
+![DRIVER_DROWSINESS_DETECTION_(CNN)-OneAPI]<p align="middle"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/7fc25f97-5f47-4a52-92e2-32b397b9b299.jpg" width="1000" height="250">
+    ![made-with-jupyter-notebook](https://user-images.githubusercontent.com/130077430/230479936-93dbcbd0-275b-4af7-9231-cceeb91d8a84.svg)![built-by-team-geeks](https://user-images.githubusercontent.com/130077430/230486285-e9e8fdbc-4579-4d0e-a448-550b423199b2.svg)[![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/gangeshbaskerr/DriverDrowsinessDetection-OneAPI"> <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/gangeshbaskerr/DriverDrowsinessDetection-OneAPI?style=social">
 <hr/>
 
 # Inspiration  <img src="https://user-images.githubusercontent.com/130077430/230579469-c1263cef-784e-4845-93fb-2f73544e49e1.png" width="90" height="80"> 
-Accidents caused due to driver drowsiness are a major public health and safety issue, affecting millions of people every year. According to the National Safety Council, driving while drowsy is similar to driving while intoxicated, as it impairs drivers attention, reaction time, and decision making, leading to fatal or serious crashes. Several factors can increase the risk of drowsy driving, such as lack of sleep, sleep disorders, shift work, medications, and alcohol.
+Phishing attacks have emerged as a significant and persistent threat in the digital landscape, targeting individuals, organizations, and even governments. These deceptive techniques employed by cybercriminals aim to trick unsuspecting users into divulging sensitive information, such as login credentials, financial details, or personal data.
 
-Research shows that driver fatigue may be a contributory factor in up to 20% of road accidents, and up to one quarter of fatal and serious accidents. An estimated 1,550 deaths, 71,000 injuries, and $12.5 billion in monetary losses are due to drowsy drivers in a year.
+Research shows that Over 48% of emails sent in 2022 were spam, and up to an estimated 3.4 billion spam emails sent every day. Globally, 323,972 internet users fell victim to phishing attacks in 2021 and With an average of $136 lost per phishing attack, this amounts to $44.2 million stolen by cyber criminals through phishing attacks in 2021.
 
-<img src="https://th.bing.com/th/id/OIG.WEOyPEzD_hHNRREU0GVd?pcl=1b1a19&pid=ImgGn" width="320" height="280"><img src="https://cdn.thezebra.com/zfront/media/production/images/Have_you_ever_fallen_asleep__or__nodded_off__.width-1140.png" width="300" height="280"><img src="https://user-images.githubusercontent.com/130077430/230591069-d29be60a-dd0c-42a9-a83b-92df7d7b03ba.gif" width="320" height="280">
+<img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/64456509-8653-4a6d-9b6c-5335a20b4f14" width="499" height="280"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/119d9a9b-822a-4acc-8dbc-5d89f3ffad15" width="499" height="280">
 
 <hr/>
 
 # Problem Statement <img src="https://user-images.githubusercontent.com/130077430/230730194-a7389fed-f5fd-48d3-856a-0212057f2500.png" width="90" height="80">
 
-The number of accidents occuring has been increased a lot recently and one of the major reasons for it is drowsiness Therefore, there is a need for a better solution that can detect driver drowsiness accurately and unobtrusively, and provide timely feedback or intervention to prevent accidents
+Phishing attacks pose a significant threat to online users, compromising their privacy, financial security, and trust in online interactions. Detecting and mitigating phishing sites remains challenging, requiring effective techniques to identify and differentiate between legitimate and malicious websites accurately.
+
+Existing phishing detection methods often struggle to keep pace with the evolving tactics employed by cybercriminals, necessitating the development of an enhanced approach for phishing site detection. 
+
+Therefore, a critical need is to develop an improved system combining advanced machine learning techniques, feature engineering, and behavioural analysis to detect phishing sites accurately and efficiently. By addressing these challenges, the proposed methodology aims to improve the security of online users, protect their sensitive information, and foster a safer digital environment.
 
 <hr/>
 
 # Introduction <img src="https://user-images.githubusercontent.com/72274851/152814876-73362bcc-bde6-411f-ba80-235e911f276f.gif" width="90" height="90">
 
-The drowsiness detection system monitors the driver's condition and issues an alert if it detects signs of drowsiness using CNN - Python, OpenCV.
+The aim is to contribute to developing a more secure digital environment by offering an advanced approach to phishing site detection. By accurately identifying and mitigating phishing threats, the proposed model will enhance the safety and trustworthiness of online interactions, protecting users from falling victim to phishing attacks.
 
-This system aims to reduce the number of accidents on the road by detecting the driver's drowsiness and warning them using an alarm⏰. 
+In the following sections, we will discuss the related literature, present the methodology, describe the experiments and results, and conclude with the implications and future directions of the research. 
 
 <hr/>
 
 # Approach <img src="https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/119-512.png" width="90" height="80"> 
-Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can detect features from the face of the drivers and alert them if they ever fall asleep while driving. The system detects the eyes and prompts if it is closed or open. If the eyes are closed for 2 seconds(5 fps), it will play the alarm to get the driver's attention to stop because the system has detected drowsiness. We have built a model of CNN network trained on a dataset using OneAPI that can detect closed and open eyes. Then OpenCV is used to get the live feed from the camera and run every frame through the CNN model to process it and classify whether it is opened or closed eyes.
+
+• Datasets containing phishing and legitimate websites is collected from open-source platform PhishTank.
+
+• Write a code to extract the required features from the URL database.
+
+• Analyze and preprocess the dataset by using EDA techniques. 
+
+• Divide the dataset into training and testing sets. 
+
+• Run selected machine learning and deep neural network algorithms on the dataset like Decision Tree , Random Forest, Multilayer Perceptrons, XGBoost, Autoencoder Neural Networks and Support Vector Machines . 
+
+• Write a code for displaying the evaluation result considering accuracy metrics. 
+
+• Compare the obtained results for trained models and specify which is better.
+
 <hr/>
 
 # Procedure <img src="https://th.bing.com/th/id/R.02832177b40b49d50674126476f980c3?rik=aXibwvpQe645bg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fjcx%2f6rb%2fjcx6rbngi.png&ehk=xllVkMLnEE%2fEXx%2fnWbpceiVVfvTNGJmODcZ9fEBJVGA%3d&risl=&pid=ImgRaw&r=0" width="120" height="100"> 
@@ -39,51 +57,54 @@ Here, we used Python, OpenCV, and Keras(Tensorflow) to build a system that can d
        4) Pandas
        5) OS
 ## 2️⃣ Understand the dataset
-       The dataset which was used is a subset of the dataset from(https://www.kaggle.com/datasets/dheerajperumandla/drowsiness-dataset)
-       it has 4 folder which are
-       1) Closed_eyes - having 726 pictures
-       2) Open_eyes - having 726 pictures
-       3) Yawn - having 725 pictures
-       4) no_yawn - having 723 pictures
+Datasets containing phishing and legitimate websites is collected from open-source platform PhishTank.
+[click here!](https://devmesh.intel.com/projects/driver-drowsiness-detection-70c5e4)
 
- <img src="https://user-images.githubusercontent.com/130077430/230722949-fa0ece8c-9d0c-45bd-b77f-863e299dd134.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722952-9b7076a0-bb3e-4be3-b102-e907fc02d030.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722954-862bbeea-9489-4b5e-8ff0-780635bd337f.jpg" width="230" height="250"> <img src="https://user-images.githubusercontent.com/130077430/230722955-f751a799-5d50-4272-bf0c-0d564a9a157e.jpg" width="230" height="250">
- 
-## 3️⃣ Data preprocessing
-      preprocess the images from the closed_eye, open_eye, yawn and no_yawn folder.
-      Resizing all the images to the same dimensions and converting the images into numpy arrays
-      The dataset will be split into training, validation, and testing sets.
-## 4️⃣ Build and train the CNN model
-The CNN model is designed and trained to classify images as either the driver's eye is opened or closed.
+This service provide a set of phishing URLs in multiple formats like csv, json etc. that gets updated hourly.
+From this dataset, 5000 random phishing URLs are collected to train the machine learning models.
+
+The legitimate URLs are obatined from the open datasets of the University of New Brunswick, [click here!](https://www.unb.ca/cic/datasets/url-2016.html). 
+This dataset has a collection of benign, spam, phishing, malware & defacement URLs. Out of all these types, the benign url dataset is considered for this project.
+From this dataset, 5000 random legitimate URLs are collected to train the ML models.
+## 3️⃣ Feature Extraction
+**The below-mentioned category of features are extracted from the URL data: ​**
+
+1. Addressed Bar-based features​
+
+    • In this category, 9 features are extracted.​
+
+2. Domain-based Features​
+
+    • In this category, 4 features are extracted.​
+
+3. HTML & Javascript-based Features​
+
+    • In this category, 4 features are extracted. ​
+
+So, all together 17 features are extracted from the 10,000 URL dataset and are stored in '5.urldata.csv' file in the Data Files folder​
+## 4️⃣ Build and train the model
+
+Before starting the ML model training, the data is split into 80-20, i.e., 8000 training samples & 2000 testing samples. From the dataset, it is clear that this is a supervised machine-learning task.
+
+This data set comes under a classification problem, as the input URL is classified as phishing (1) or legitimate (0). ​
+
+The supervised machine learning models (classification) considered to train the dataset in this project are:
+
+• Decision Tree
+
+• Random Forest
+
+• Multilayer Perceptrons
+
+• XGBoost
+
+• Autoencoder Neural Network
+
+• Support Vector Machines
 
 <img src="https://user-images.githubusercontent.com/16632408/159187014-4bc4b70e-98d6-4313-873f-997ded2eff27.png" width="470" height="500"><img src="https://user-images.githubusercontent.com/130077430/230521431-64fbf6f1-7aca-4b67-bf67-f80a0656b784.png" width="470" height="500">
-## 5️⃣ Train the model using Intel OneAPI to get better results
-<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="180" height="100"><img src="https://aditech.in/wp-content/uploads/2020/07/image_2020_07_17T06_08_48_297Z.png" width="740" height="100">
-
-**How does OneApi provide better performance :**
-    
-Today’s compute systems are heterogeneous and include CPUs, GPUs, FPGAs, and other accelerators. The different architectures exhibit varied                   characteristics that can be matched to specific workloads for the best performance.
-
-Having multiple types of compute architectures leads to different programming and optimization needs. oneAPI and SYCL provide a programming model, whether through direct programming or libraries, that can be utilized to develop software tailored to each of the architectures.
-    
-**Advantages of using OneAPI :**
-
-1) We can use Single code for both CPU and GPU (heterogeneous computing)
-2) To implement machine learning based IoT projects easily with less hardwares as the machine learning part happens in cloud
-3) To process files faster ie. it takes less time to run the epochs
-4) OneAPI allows users to transcend Hardware restrictions and provide better performance for low powered computers
-5) Accuracy will improve while using OneAPI
-
-
-<img src="https://user-images.githubusercontent.com/130077430/230733185-94fbda70-6fe6-40af-985c-d7f8a74a3521.jpg" width="470" height="400"> <img src="https://user-images.githubusercontent.com/130077430/230733189-78e03097-7c88-4f42-9c0e-159e58aa7972.jpg" width="470" height="400">
-
-To migrate your project to OneAPI : 
-[click here!](https://devcloud.intel.com/oneapi/get_started/) to get started
-
-For reference : [click here!](https://www.youtube.com/watch?v=NkJXCalgmeU)
-    
-    
-## 6️⃣ Save the model
-       save the model to calculate the accuracy and loss
+## 5️⃣ Save the model
+       save the model and calculate the training and testing accuracy ,
     
 <hr/>
 
@@ -103,7 +124,7 @@ We did 80 epochs, to get a good accuracy from the model i.e. 98% for training ac
 <hr/>
 
 # Learnings <img src="https://user-images.githubusercontent.com/130077430/230583675-33ad7480-857b-451f-a64b-3c45f21d390a.png" width="90" height="80">
-<img src="https://user-images.githubusercontent.com/72274851/218504609-585bcebe-5101-4477-bdd2-3a1ba13a64a8.png" width="180" height="100"><img src="https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png" width="760" height="100">
+
 1) **Building a CNN model using Intel oneDNN :**
     oneAPI is an open-source software toolkit developed by Intel that simplifies the development of high-performance, heterogeneous applications. It allows       developers to write code that can run efficiently on a variety of architectures, including CPUs, GPUs, and FPGAs. oneDNN (Deep Neural Network) is a part     of oneAPI and is an optimized library for deep learning. It provides highly optimized building blocks for neural network models that run efficiently on a     variety of hardware platforms. 
 
@@ -125,7 +146,7 @@ We did 80 epochs, to get a good accuracy from the model i.e. 98% for training ac
 7) **Team work :**
     _Collaborating and communicating effectively in a team to deliver a project._
 
-8) **Understanding the need for a drowsiness detection system in vehicles**
+8) **Understanding the need for a phishing website detection **
 
 _These are just a few examples of the knowledge and skills that i likely gained while building this project. Overall, building a drowsiness detection model  is a challenging and rewarding experience that requires a combination of technical expertise and knowledge on facial cue detection._
 
@@ -138,7 +159,7 @@ We have built an app using Flutter. Flutter helps Build, test, and deploy beauti
 As soon as the model detects drowsiness, the model will send an API request call to the client app, which notifies the user to take some rest and shows the navigation option to the nearest resting places. If the user isn't drowsy, the app will give 10 seconds buffer time within which the user can confirm that he isn't sleepy by pressing the prompt on the screen. If the user is drowsy he will get a option for getting driving assistance from the nearby driving service providers. If the user has been detected drowsy more than three times within 10 minutes, a notification is sent to the highway patrol and the nearby drivers as a concern for the safety of other drivers and the drowsy driver.
 
 
-<img src="https://user-images.githubusercontent.com/130077430/230727293-bd42e1a8-29cb-4114-841c-64578c4bd0ca.png" width="230" height="500"><img src="https://user-images.githubusercontent.com/130077430/230726528-77ba9f99-bb0c-40f8-87d0-c764bf270ae0.png" width="230" height="500"><img src="https://user-images.githubusercontent.com/130077430/230728575-cede9c5d-4b49-46e5-ad93-4db6e5b14380.png" width="230" height="500"><img src="https://user-images.githubusercontent.com/130077430/230729076-ba0baa57-7d02-4a19-af50-71eb7fb6162d.png" width="230" height="500">
+<img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/d38892c6-cbcf-4120-9e92-e7a6c49f4aa5.png" width="230" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/22fba62a-8af0-4c1c-be62-fa122c82b688.png" width="195" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/828d4e40-ac50-4cdc-a385-318309f93427.png" width="195" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/e7df23e6-d187-4a39-af9e-06f656625248.png" width="195" height="500"><img src="https://github.com/gangeshbaskerr/DriverDrowsinessDetection-OneAPI/assets/130077430/4e694ad9-2268-4fa8-8736-99a1205dbdff.png" width="195" height="500">
 
 <hr/>
 
@@ -146,19 +167,18 @@ As soon as the model detects drowsiness, the model will send an API request call
 # One more thing <img src="https://cdn.freebiesupply.com/logos/large/2x/apple1-logo-png-transparent.png" width="60" height="60">
 <p align="middle"><img src="https://th.bing.com/th/id/R.cfabfe3a83a918b326ede9efb1d7ee8b?rik=sxInqysclnUS1A&riu=http%3a%2f%2fmedia.idownloadblog.com%2fwp-content%2fuploads%2f2015%2f08%2fSteve-Jobs-One-More-Thing.jpg&ehk=VbXo3DNGszgubtTtwYXhvwQyxwDKVJ%2bW7%2b0%2bproDQ%2fM%3d&risl=&pid=ImgRaw&r=0" width="800" height="300">
 
-1) **Distraction detection :**
-    When no eyes is detected while face is detected, It can be called distraction and that can also be added to this model. 
+1) **Browser Extension :**
+    This project can be taken further by creating a browser extensions by developing a GUI. 
 
 2) **Alcohol gas detection :**
     The MQ3 alcohol gas sensor is a module used for detecting alcohol, CH4, benzene, gasoline, hexane, CO, and LPG. It has a sensitive material namedSnO2 for     alcohol gas detection, This code can be easily pared with MQ3 sensor to extend its detection in drunken driving.
 
-3) This module can be integrated with the driving system in cars to slow them down and bring them to stop when drowsiness is detected, its even better with      autonomous cars as they can take over the driver and park the car in a safe place and prompt the driver to rest for few hours and then continue their        journey.
+3) The machine learning models shown here can be easily served as REST API endpoints which can further be used with add-ons to detect phishing websites in real-time.
 
 <hr/>
 
 # Conclusion <img src="https://user-images.githubusercontent.com/130077430/230730394-3dfbc977-435b-4a6f-bfa3-fc193606f0e0.png" width="90" height="80">
 Through this project there will be 20-30% decrease in number of accidents occuring. If this project is used efficiently it may also lead to huge decrease in percentage of accidents .
 
-To view this project on Intel DevMesh : [click here!](https://devmesh.intel.com/projects/driver-drowsiness-detection-70c5e4)
 
 <hr/>
